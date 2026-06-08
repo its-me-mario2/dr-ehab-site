@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Dr. Ehab El Zahed | Orthopedic Surgeon – Joint Replacement, Arthroscopy & Trauma</title>
+<meta name="description" content="Dr. Ehab El Zahed – Orthopedic Surgeon & Lecturer at Al-Azhar University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#162840;--navy-mid:#1e3a5f;--navy-light:#2d5080;
+  --teal:#0a8a7e;--teal-b:#0d9488;--teal-dark:#0a7268;
+  --teal-pale:#d0f5f0;--teal-bg:#edfaf8;
+  --slate-50:#f8fafc;--slate-100:#f0f4f8;--slate-200:#dde4ed;
+  --slate-300:#c4cfd9;--slate-400:#94a3b8;--slate-500:#637283;
+  --slate-600:#47586a;--white:#fff;--text:#1a2a3a;
+  --r-sm:6px;--r:10px;--r-lg:16px;--r-xl:22px;
+  --sh-sm:0 2px 8px rgba(22,40,64,.07);
+  --sh-md:0 6px 20px rgba(22,40,64,.09);
+}
+*,::after,::before{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',-apple-system,BlinkMacSystemFont,sans-serif;color:var(--text);line-height:1.6;background:var(--white);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+input,textarea,select,button{font-family:inherit;font-size:inherit}
+.container{width:100%;max-width:1120px;margin:0 auto;padding:0 28px}
+header{background:var(--navy);color:var(--white);position:sticky;top:0;z-index:100;border-bottom:1px solid rgba(255,255,255,.05);transition:box-shadow .3s,background .3s}
+header.scrolled{background:#0f1e30;box-shadow:0 3px 28px rgba(0,0,0,.3)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:13px 0;gap:20px}
+.logo{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.logo-mark{width:32px;height:32px;border-radius:7px;background:linear-gradient(135deg,var(--teal-b) 0%,#0f766e 100%);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.logo-mark svg{width:16px;height:16px;fill:none;stroke:#fff;stroke-width:2.5;stroke-linecap:round}
+.logo-text{font-family:'Playfair Display',Georgia,serif;font-size:1.05rem;font-weight:700;line-height:1.2}
+.logo-text .accent{color:#7dd3cb;font-weight:400}
+.header-nav{display:flex;align-items:center;gap:2px}
+.header-nav a{color:rgba(255,255,255,.65);font-size:.825rem;font-weight:500;padding:6px 13px;border-radius:var(--r-sm);transition:background .2s,color .2s}
+.header-nav a:hover{background:rgba(255,255,255,.07);color:var(--white)}
+.header-right{display:flex;align-items:center;gap:12px}
+.phone-cta{display:inline-flex;align-items:center;gap:7px;background:var(--teal);color:var(--white);padding:9px 18px;border-radius:var(--r-sm);font-size:.825rem;font-weight:600;transition:background .2s,transform .15s;white-space:nowrap;flex-shrink:0}
+.phone-cta:hover{background:var(--teal-dark);transform:translateY(-1px)}
+.auth-btn{background:rgba(255,255,255,.1);color:rgba(255,255,255,.8);border:1px solid rgba(255,255,255,.15);padding:7px 14px;border-radius:var(--r-sm);font-size:.8rem;font-weight:500;cursor:pointer;transition:background .2s}
+.auth-btn:hover{background:rgba(255,255,255,.15);color:var(--white)}
+.user-badge{font-size:.8rem;color:#7dd3cb;font-weight:500;cursor:pointer;padding:4px 10px;border-radius:var(--r-sm);transition:background .2s}
+.user-badge:hover{background:rgba(255,255,255,.08)}
+
+.hero{background:var(--navy);color:var(--white);padding:96px 0 80px;text-align:center;position:relative;overflow:hidden}
+.hero-mesh{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 80% 55% at 50% -10%,rgba(10,138,126,.22) 0%,transparent 65%),radial-gradient(ellipse 40% 40% at 80% 90%,rgba(30,58,95,.4) 0%,transparent 60%)}
+.hero-lines{position:absolute;inset:0;pointer-events:none;opacity:.04;background-image:repeating-linear-gradient(0deg,transparent,transparent 39px,rgba(255,255,255,.5) 39px,rgba(255,255,255,.5) 40px)}
+.hero-inner{position:relative}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(10,138,126,.18);color:#7dd3cb;padding:6px 18px;border-radius:40px;font-size:.73rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:26px;border:1px solid rgba(125,211,203,.18)}
+.hero-eyebrow span{width:5px;height:5px;border-radius:50%;background:#7dd3cb;display:inline-block}
+.hero h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(2.1rem,5vw,3.5rem);font-weight:800;line-height:1.1;max-width:760px;margin:0 auto 20px;letter-spacing:-.02em}
+.hero h1 em{font-style:normal;color:#7dd3cb;display:inline-block}
+.hero-sub{font-size:clamp(1rem,1.8vw,1.1rem);color:rgba(203,213,225,.8);margin-bottom:38px;max-width:560px;margin-left:auto;margin-right:auto;line-height:1.7}
+.hero-ctas{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap}
+.btn-primary{display:inline-flex;align-items:center;gap:8px;background:var(--teal);color:var(--white);padding:13px 30px;border-radius:var(--r);font-size:.95rem;font-weight:600;border:none;cursor:pointer;transition:background .2s,transform .15s,box-shadow .2s}
+.btn-primary:hover{background:var(--teal-dark);transform:translateY(-2px);box-shadow:0 6px 20px rgba(10,138,126,.4)}
+.btn-outline{display:inline-flex;align-items:center;gap:8px;background:transparent;color:var(--white);padding:12px 26px;border-radius:var(--r);font-size:.95rem;font-weight:500;border:1.5px solid rgba(255,255,255,.22);cursor:pointer;transition:background .2s,border-color .2s}
+.btn-outline:hover{background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.4)}
+
+.stats-strip{background:var(--white);border-bottom:1px solid var(--slate-200)}
+.stats-inner{display:flex;justify-content:center;flex-wrap:wrap}
+.stat-item{flex:1;min-width:150px;max-width:200px;text-align:center;padding:24px 16px;border-right:1px solid var(--slate-200)}
+.stat-item:last-child{border-right:none}
+.stat-num{font-family:'Playfair Display',Georgia,serif;font-size:2rem;font-weight:700;color:var(--navy);line-height:1;margin-bottom:4px}
+.stat-num sup{font-size:.9rem;vertical-align:super;line-height:0}
+.stat-label{font-size:.72rem;color:var(--slate-400);font-weight:600;text-transform:uppercase;letter-spacing:.07em}
+
+section{padding:88px 0}
+.section-header{text-align:center;margin-bottom:52px}
+.eyebrow{display:inline-block;font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--teal);margin-bottom:11px}
+.section-title{font-family:'Playfair Display',Georgia,serif;font-size:clamp(1.55rem,3vw,2.2rem);font-weight:700;color:var(--navy);line-height:1.2;margin-bottom:14px;letter-spacing:-.01em}
+.section-desc{font-size:.93rem;color:var(--slate-500);max-width:500px;margin:0 auto;line-height:1.75}
+
+.about-bg{background:var(--slate-50)}
+.about-layout{display:grid;grid-template-columns:300px 1fr;gap:56px;align-items:start;max-width:960px;margin:0 auto}
+.profile-card{background:var(--navy);border-radius:var(--r-xl);padding:36px 28px;color:var(--white);text-align:center;position:relative;overflow:hidden}
+.profile-card::before{content:'';position:absolute;top:-40px;right:-40px;width:130px;height:130px;border-radius:50%;background:rgba(10,138,126,.15)}
+.profile-card::after{content:'';position:absolute;bottom:-30px;left:-30px;width:90px;height:90px;border-radius:50%;background:rgba(255,255,255,.04)}
+.profile-avatar{position:relative;z-index:1;width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,var(--teal-b) 0%,#0a7a70 100%);display:flex;align-items:center;justify-content:center;margin:0 auto 16px;font-family:'Playfair Display',Georgia,serif;font-size:1.6rem;font-weight:700;color:var(--white);border:2.5px solid rgba(255,255,255,.15);box-shadow:0 0 0 6px rgba(10,138,126,.12)}
+.profile-name{font-family:'Playfair Display',Georgia,serif;font-size:1.15rem;font-weight:700;margin-bottom:4px;position:relative;z-index:1}
+.profile-title{font-size:.8rem;color:#7dd3cb;margin-bottom:22px;position:relative;z-index:1}
+.profile-divider{width:32px;height:1.5px;background:rgba(255,255,255,.15);margin:0 auto 20px;position:relative;z-index:1}
+.cred-list{display:flex;flex-direction:column;gap:9px;text-align:left;position:relative;z-index:1}
+.cred-row{display:flex;align-items:flex-start;gap:10px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);border-radius:var(--r-sm);padding:9px 12px}
+.cred-dot{width:7px;height:7px;border-radius:50%;background:var(--teal-b);flex-shrink:0;margin-top:5px}
+.cred-text{font-size:.78rem;color:rgba(203,213,225,.85);line-height:1.45}
+.about-body p{font-size:.95rem;color:var(--slate-600);line-height:1.8;margin-bottom:18px}
+.about-body p:last-of-type{margin-bottom:24px}
+.about-body strong{color:var(--navy);font-weight:600}
+.about-contact{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding-top:4px}
+
+.spec-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.spec-card{background:var(--white);border-radius:var(--r-lg);padding:28px 24px;border:1px solid var(--slate-200);transition:box-shadow .25s,transform .22s,border-color .25s;cursor:default;position:relative;overflow:hidden}
+.spec-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--teal) 0%,#0f9e92 100%);transform:scaleX(0);transform-origin:left;transition:transform .3s ease}
+.spec-card:hover{box-shadow:var(--sh-md);transform:translateY(-3px);border-color:rgba(10,138,126,.2)}
+.spec-card:hover::before{transform:scaleX(1)}
+.spec-icon-wrap{width:48px;height:48px;border-radius:10px;background:var(--teal-bg);display:flex;align-items:center;justify-content:center;margin-bottom:16px;border:1px solid rgba(10,138,126,.12)}
+.spec-card:hover .spec-icon-wrap{background:var(--teal-pale)}
+.spec-icon-wrap svg{width:22px;height:22px}
+.spec-card h3{font-family:'Playfair Display',Georgia,serif;font-size:.95rem;font-weight:700;color:var(--navy);margin-bottom:8px}
+.spec-card p{font-size:.84rem;color:var(--slate-500);line-height:1.65}
+
+.loc-section{background:var(--slate-50)}
+.loc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;max-width:840px;margin:0 auto 36px}
+.loc-card{background:var(--white);border-radius:var(--r-xl);padding:30px 28px;border:1px solid var(--slate-200);transition:box-shadow .25s,transform .2s;position:relative;overflow:hidden}
+.loc-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--teal) 0%,#5eead4 100%)}
+.loc-card:hover{box-shadow:var(--sh-md);transform:translateY(-2px)}
+.loc-type{display:inline-block;background:var(--teal-pale);color:#0a6b62;padding:3px 10px;border-radius:4px;font-size:.69rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px}
+.loc-name{font-family:'Playfair Display',Georgia,serif;font-size:1.05rem;font-weight:700;color:var(--navy);margin-bottom:3px}
+.loc-area{font-size:.82rem;color:var(--slate-400);margin-bottom:14px}
+.loc-detail{display:flex;align-items:flex-start;gap:10px;margin-bottom:8px;font-size:.85rem;color:var(--slate-600)}
+.loc-detail svg{width:14px;height:14px;fill:none;stroke:var(--teal);stroke-width:2;flex-shrink:0;margin-top:3px}
+.loc-hrs{margin-top:14px;padding-top:14px;border-top:1px solid var(--slate-100);display:flex;align-items:center;gap:8px;font-size:.84rem}
+.loc-hrs-badge{background:var(--navy);color:var(--white);padding:3px 10px;border-radius:4px;font-size:.72rem;font-weight:600}
+.loc-hrs-time{color:var(--slate-500);font-size:.84rem}
+
+.pub-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:1000px;margin:0 auto}
+.pub-card{background:var(--slate-50);border-radius:var(--r-lg);padding:26px 22px;border:1px solid var(--slate-200);display:flex;flex-direction:column;transition:box-shadow .25s,transform .2s}
+.pub-card:hover{box-shadow:var(--sh-sm);transform:translateY(-2px)}
+.pub-year-badge{display:inline-block;background:var(--navy);color:var(--white);padding:3px 10px;border-radius:4px;font-size:.69rem;font-weight:700;margin-bottom:14px;align-self:flex-start}
+.pub-card h3{font-family:'Playfair Display',Georgia,serif;font-size:.88rem;font-weight:700;color:var(--navy);margin-bottom:8px}
+.pub-journal{font-size:.75rem;color:var(--teal);font-weight:600;margin-bottom:10px}
+.pub-card p{font-size:.82rem;color:var(--slate-500);line-height:1.65;flex:1}
+
+.faq-section{background:var(--slate-50)}
+.faq-grid{max-width:700px;margin:0 auto;display:flex;flex-direction:column;gap:8px}
+.faq-item{border:1px solid var(--slate-200);border-radius:var(--r);overflow:hidden;background:var(--white);transition:box-shadow .2s}
+.faq-item.open{box-shadow:var(--sh-sm)}
+.faq-q{width:100%;display:flex;justify-content:space-between;align-items:center;padding:17px 22px;background:transparent;border:none;cursor:pointer;font-size:.88rem;font-weight:600;color:var(--navy);text-align:left;transition:background .2s;gap:12px}
+.faq-q:hover{background:var(--slate-50)}
+.faq-chevron{width:26px;height:26px;border-radius:50%;background:var(--slate-100);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background .25s,transform .3s}
+.faq-item.open .faq-chevron{background:var(--teal-pale);transform:rotate(180deg)}
+.faq-chevron svg{width:12px;height:12px;stroke:var(--teal);stroke-width:2.5;fill:none}
+.faq-a{padding:0 22px;max-height:0;overflow:hidden;transition:max-height .35s ease,padding .3s ease}
+.faq-item.open .faq-a{max-height:280px;padding:0 22px 18px}
+.faq-a p{font-size:.86rem;color:var(--slate-500);line-height:1.8}
+
+footer{background:var(--navy);color:var(--white)}
+.footer-top{padding:52px 0 40px;border-bottom:1px solid rgba(255,255,255,.07)}
+.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:44px}
+.footer-brand-logo{display:flex;align-items:center;gap:9px;margin-bottom:14px}
+.footer-brand-logo .logo-mark{width:28px;height:28px}
+.footer-brand-logo .logo-text{font-size:.95rem}
+.footer-tagline{font-size:.83rem;color:rgba(203,213,225,.6);line-height:1.7;max-width:250px}
+.footer-col-title{font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#7dd3cb;margin-bottom:16px}
+.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:8px}
+.footer-col ul li{font-size:.83rem;color:rgba(203,213,225,.65);line-height:1.5}
+.footer-col ul li strong{color:rgba(255,255,255,.9);font-weight:600}
+.footer-bottom{padding:20px 0;display:flex;align-items:center;justify-content:center}
+.footer-bottom p{font-size:.77rem;color:rgba(148,163,184,.55)}
+.admin-hint{cursor:pointer;transition:color .2s;color:var(--navy)}
+.admin-hint:hover{color:var(--teal)}
+
+.modal-overlay{position:fixed;inset:0;background:rgba(15,23,42,.7);z-index:200;display:flex;align-items:center;justify-content:center;opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s;padding:20px;backdrop-filter:blur(4px)}
+.modal-overlay.active{opacity:1;visibility:visible}
+.modal{background:var(--white);border-radius:var(--r-xl);width:100%;max-width:520px;max-height:90vh;overflow-y:auto;padding:32px;position:relative;transform:translateY(18px) scale(.97);transition:transform .35s ease;box-shadow:0 28px 72px rgba(0,0,0,.22)}
+.modal-overlay.active .modal{transform:translateY(0) scale(1)}
+.modal-close{position:absolute;top:16px;right:16px;width:36px;height:36px;border-radius:50%;border:none;background:var(--slate-100);color:var(--slate-500);font-size:1.2rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .2s,transform .15s}
+.modal-close:hover{background:var(--slate-200);transform:rotate(90deg)}
+.modal h2{font-family:'Playfair Display',Georgia,serif;font-size:1.2rem;font-weight:700;color:var(--navy);margin-bottom:4px}
+.modal .modal-sub{font-size:.83rem;color:var(--slate-400);margin-bottom:22px}
+.steps{display:flex;gap:6px;margin-bottom:26px}
+.step-dot{flex:1;height:3px;border-radius:3px;background:var(--slate-200);transition:background .3s}
+.step-dot.active{background:var(--teal)}
+.step-dot.done{background:#5eead4}
+.step{display:none}
+.step.active{display:block;animation:fadeUp .3s ease}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.form-group{margin-bottom:16px}
+.form-group label{display:block;font-size:.81rem;font-weight:600;color:var(--navy);margin-bottom:5px}
+.form-group input,.form-group select{width:100%;padding:10px 13px;border:1.5px solid var(--slate-200);border-radius:var(--r);font-size:.88rem;color:var(--text);transition:border-color .2s,box-shadow .2s;outline:none;background:var(--white)}
+.form-group input:focus,.form-group select:focus{border-color:var(--teal);box-shadow:0 0 0 3px rgba(10,138,126,.1)}
+.form-group input.error,.form-group select.error{border-color:#dc2626}
+.radio-group{display:flex;flex-direction:column;gap:8px}
+.radio-option{display:flex;align-items:flex-start;gap:12px;padding:12px 14px;border:1.5px solid var(--slate-200);border-radius:var(--r);cursor:pointer;transition:border-color .2s,background .2s}
+.radio-option:hover{border-color:var(--teal);background:var(--teal-bg)}
+.radio-option input[type=radio]{appearance:none;width:17px;height:17px;border:2px solid var(--slate-300);border-radius:50%;margin-top:2px;flex-shrink:0;position:relative;transition:border-color .2s}
+.radio-option input[type=radio]:checked{border-color:var(--teal)}
+.radio-option input[type=radio]:checked::after{content:'';position:absolute;inset:3px;border-radius:50%;background:var(--teal)}
+.radio-option.selected{border-color:var(--teal);background:var(--teal-bg)}
+.radio-option .r-text{flex:1}
+.radio-option .r-title{font-size:.875rem;font-weight:600;color:var(--navy)}
+.radio-option .r-hours{font-size:.77rem;color:var(--slate-400);margin-top:2px}
+.calendar{background:var(--slate-50);border-radius:var(--r);padding:15px;border:1px solid var(--slate-200);margin-bottom:14px}
+.cal-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.cal-head .cal-month{font-size:.875rem;font-weight:700;color:var(--navy)}
+.cal-head button{width:29px;height:29px;border-radius:7px;border:none;background:transparent;color:var(--navy);cursor:pointer;font-size:.95rem;transition:background .2s;display:flex;align-items:center;justify-content:center}
+.cal-head button:hover{background:var(--slate-200)}
+.cal-days{display:grid;grid-template-columns:repeat(7,1fr);text-align:center;gap:2px}
+.cal-days .day-name{font-size:.66rem;color:var(--slate-400);font-weight:600;padding:6px 0;text-transform:uppercase}
+.cal-days .day{font-size:.79rem;padding:7px 0;border-radius:7px;cursor:pointer;transition:background .15s,color .15s;color:var(--text)}
+.cal-days .day:hover:not(.disabled):not(.empty){background:var(--teal-pale)}
+.cal-days .day.selected{background:var(--teal);color:var(--white);font-weight:600}
+.cal-days .day.today{font-weight:700;outline:2px solid var(--teal);outline-offset:-2px}
+.cal-days .day.disabled{color:var(--slate-300);cursor:not-allowed}
+.cal-days .day.empty{cursor:default}
+.hours-info{background:var(--teal-bg);border-radius:var(--r);padding:10px 14px;font-size:.81rem;color:#0a6b62;display:flex;align-items:center;gap:8px;border:1px solid rgba(10,138,126,.12)}
+.hours-info svg{width:14px;height:14px;stroke:#0a6b62;stroke-width:2;flex-shrink:0}
+.btns{display:flex;gap:10px;margin-top:22px;justify-content:center}
+.btns .btn-secondary{padding:10px 22px;border-radius:var(--r);border:1.5px solid var(--slate-200);background:var(--white);color:var(--slate-600);font-weight:600;font-size:.875rem;cursor:pointer;transition:border-color .2s,background .2s;min-width:100px}
+.btns .btn-secondary:hover{border-color:var(--teal);background:var(--teal-bg)}
+.btns .btn-primary{padding:10px 22px;border-radius:var(--r);border:none;background:var(--teal);color:var(--white);font-weight:700;font-size:.875rem;cursor:pointer;transition:background .2s,transform .15s;min-width:100px}
+.btns .btn-primary:hover{background:var(--teal-dark);transform:translateY(-1px)}
+.btns .btn-primary:disabled{opacity:.5;cursor:not-allowed;transform:none}
+.spinner{display:none;flex-direction:column;align-items:center;justify-content:center;padding:40px 0;gap:16px}
+.spinner.active{display:flex}
+.spinner .ring{width:44px;height:44px;border:3px solid var(--slate-200);border-top-color:var(--teal);border-radius:50%;animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.spinner p{font-size:.875rem;color:var(--slate-400)}
+.success-screen{display:none;text-align:center;padding:20px 0}
+.success-screen.active{display:block;animation:fadeUp .4s ease}
+.success-screen .check{width:56px;height:56px;border-radius:50%;background:var(--teal-pale);color:#0a7268;font-size:1.8rem;display:flex;align-items:center;justify-content:center;margin:0 auto 16px}
+.success-screen h3{font-family:'Playfair Display',Georgia,serif;font-size:1.1rem;font-weight:700;color:var(--navy);margin-bottom:6px}
+.success-screen p{font-size:.875rem;color:var(--slate-400);margin-bottom:4px}
+.success-screen .summary{margin-top:16px;padding:14px;background:var(--slate-50);border-radius:var(--r);font-size:.83rem;color:var(--slate-500);text-align:left;line-height:1.8;border:1px solid var(--slate-200)}
+.success-screen .summary strong{color:var(--navy)}
+
+.tab-bar{display:flex;background:var(--slate-100);border-radius:var(--r);padding:3px;margin-bottom:24px}
+.tab-btn{flex:1;padding:8px 16px;border:none;background:transparent;border-radius:calc(var(--r) - 2px);font-size:.85rem;font-weight:600;color:var(--slate-500);cursor:pointer;transition:background .2s,color .2s}
+.tab-btn.active{background:var(--white);color:var(--navy);box-shadow:var(--sh-sm)}
+.tab-btn:hover:not(.active){color:var(--navy)}
+
+.appointment-card{background:var(--white);border:1px solid var(--slate-200);border-radius:var(--r);padding:16px 20px;margin-bottom:10px;display:flex;align-items:center;justify-content:space-between;gap:12px;transition:box-shadow .2s}
+.appointment-card:hover{box-shadow:var(--sh-sm)}
+.appt-info{flex:1;min-width:0}
+.appt-info .appt-title{font-size:.88rem;font-weight:600;color:var(--navy);margin-bottom:2px}
+.appt-info .appt-meta{font-size:.78rem;color:var(--slate-400)}
+.status-badge{display:inline-flex;align-items:center;gap:5px;padding:4px 12px;border-radius:20px;font-size:.72rem;font-weight:600;white-space:nowrap}
+.status-pending{background:#fef3c7;color:#92400e}
+.status-accepted{background:#d1fae5;color:#065f46}
+.status-cancelled{background:#fee2e2;color:#991b1b}
+.appt-actions{display:flex;gap:6px;flex-wrap:wrap}
+.appt-action-btn{padding:4px 10px;border-radius:var(--r-sm);border:1px solid var(--slate-200);font-size:.75rem;font-weight:600;cursor:pointer;transition:all .2s}
+.appt-action-btn.accept{background:#d1fae5;color:#065f46;border-color:#a7f3d0}
+.appt-action-btn.accept:hover{background:#a7f3d0}
+.appt-action-btn.cancel{background:#fee2e2;color:#991b1b;border-color:#fecaca}
+.appt-action-btn.cancel:hover{background:#fecaca}
+.admin-input-time{padding:4px 8px;border:1px solid var(--slate-200);border-radius:var(--r-sm);font-size:.75rem;width:100px}
+
+.admin-panel{display:none}
+.admin-panel.active{display:block}
+.admin-login{max-width:360px;margin:80px auto;text-align:center;padding:40px 32px;background:var(--slate-50);border-radius:var(--r-xl);border:1px solid var(--slate-200)}
+.admin-login h2{font-size:1.2rem;color:var(--navy);margin-bottom:6px}
+.admin-login .sub{font-size:.85rem;color:var(--slate-400);margin-bottom:20px}
+.admin-login input{width:100%;padding:10px 14px;border:1.5px solid var(--slate-200);border-radius:var(--r);font-size:.9rem;outline:none;margin-bottom:12px;transition:border-color .2s}
+.admin-login input:focus{border-color:var(--teal);box-shadow:0 0 0 3px rgba(10,138,126,.1)}
+.admin-login .error-msg{font-size:.82rem;color:#dc2626;display:none;margin-bottom:10px}
+.admin-login .error-msg.active{display:block}
+.admin-dash{max-width:900px;margin:0 auto;padding:40px 24px}
+.admin-dash h2{font-size:1.3rem;color:var(--navy);margin-bottom:4px}
+.admin-dash .sub{font-size:.85rem;color:var(--slate-400);margin-bottom:24px}
+.admin-table{width:100%;border-collapse:collapse;font-size:.82rem}
+.admin-table th{text-align:left;padding:10px 12px;background:var(--slate-100);color:var(--navy);font-weight:600;border-bottom:2px solid var(--slate-200)}
+.admin-table td{padding:8px 12px;border-bottom:1px solid var(--slate-200);color:var(--slate-600);vertical-align:middle}
+.admin-table tr:hover td{background:var(--slate-50)}
+.admin-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px}
+.admin-header-left h2{font-size:1.3rem;color:var(--navy);margin-bottom:2px}
+.admin-header-left .sub{font-size:.85rem;color:var(--slate-400)}
+.admin-back{display:inline-flex;align-items:center;gap:6px;color:var(--teal);font-size:.85rem;font-weight:600;cursor:pointer;border:none;background:none;margin-bottom:20px;padding:4px 0;transition:color .2s}
+.admin-back:hover{color:var(--teal-dark)}
+.admin-logout{display:inline-flex;align-items:center;gap:6px;color:var(--slate-400);font-size:.8rem;cursor:pointer;border:none;background:none;padding:4px 0;margin-left:16px;transition:color .2s}
+.admin-logout:hover{color:#dc2626}
+
+.user-dash{display:none;max-width:700px;margin:40px auto;padding:0 24px}
+.user-dash.active{display:block}
+.user-dash h2{font-family:'Playfair Display',Georgia,serif;font-size:1.4rem;color:var(--navy);margin-bottom:4px}
+.user-dash .sub{font-size:.85rem;color:var(--slate-400);margin-bottom:24px}
+.dash-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px}
+.dash-header-left h2{font-size:1.3rem;color:var(--navy);margin-bottom:2px}
+.dash-header-left .sub{font-size:.85rem;color:var(--slate-400)}
+.user-logout{display:inline-flex;align-items:center;gap:6px;color:var(--slate-400);font-size:.8rem;cursor:pointer;border:none;background:none;padding:4px 0;transition:color .2s}
+.user-logout:hover{color:#dc2626}
+.user-back{display:inline-flex;align-items:center;gap:6px;color:var(--teal);font-size:.85rem;font-weight:600;cursor:pointer;border:none;background:none;margin-bottom:20px;padding:4px 0;transition:color .2s}
+.user-back:hover{color:var(--teal-dark)}
+.appt-count-badge{display:inline-block;background:var(--teal-pale);color:#0a6b62;padding:2px 12px;border-radius:12px;font-size:.8rem;font-weight:600;margin-left:8px}
+.empty-state{text-align:center;padding:48px 20px;color:var(--slate-400)}
+.empty-state p{font-size:.9rem}
+
+.auth-tabs{display:flex;gap:0;margin-bottom:20px;border-bottom:2px solid var(--slate-200)}
+.auth-tab{flex:1;text-align:center;padding:10px;border:none;background:none;font-size:.9rem;font-weight:600;color:var(--slate-400);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-2px;transition:color .2s,border-color .2s}
+.auth-tab.active{color:var(--teal);border-bottom-color:var(--teal)}
+.auth-form{display:none}
+.auth-form.active{display:block}
+.auth-error{font-size:.8rem;color:#dc2626;margin-bottom:10px;display:none}
+.auth-error.active{display:block}
+.auth-success{font-size:.8rem;color:#065f46;margin-bottom:10px;display:none}
+.auth-success.active{display:block}
+
+@media(max-width:900px){
+  .spec-grid,.pub-grid{grid-template-columns:repeat(2,1fr)}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
+  .footer-brand{grid-column:span 2}
+}
+@media(max-width:720px){
+  .about-layout{grid-template-columns:1fr;gap:28px}
+  .profile-card{max-width:380px;margin:0 auto}
+  .loc-grid{grid-template-columns:1fr;max-width:480px}
+}
+@media(max-width:600px){
+  .header-nav{display:none}
+  .header-inner{flex-wrap:wrap;padding:12px 0;gap:10px}
+  .hero{padding:64px 0 56px}
+  section{padding:60px 0}
+  .spec-grid,.pub-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .footer-brand{grid-column:span 1}
+  .modal{padding:24px 20px}
+  .stats-inner{flex-direction:column;align-items:stretch}
+  .stat-item{border-right:none;border-bottom:1px solid var(--slate-200);max-width:100%}
+  .stat-item:last-child{border-bottom:none}
+  .hero-ctas{flex-direction:column;align-items:center}
+  .appointment-card{flex-direction:column;align-items:stretch;gap:8px}
+}
+</style>
+</head>
+<body>
+
+<header id="header">
+  <div class="container">
+    <div class="header-inner">
+      <div class="logo">
+        <div class="logo-mark"><svg viewBox="0 0 16 16"><path d="M8 2v12M2 8h12"/></svg></div>
+        <div class="logo-text">Dr. Ehab&nbsp;<span class="accent">El&nbsp;Zahed</span></div>
+      </div>
+      <nav class="header-nav">
+        <a href="#about">About</a>
+        <a href="#specializations">Specializations</a>
+        <a href="#locations">Locations</a>
+        <a href="#publications">Research</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="header-right">
+        <a href="tel:+201006557255" class="phone-cta">
+          <svg width="14" height="14" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.07 1.18 2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
+          0100 655 7255
+        </a>
+        <span class="user-badge" id="userBadge" style="display:none" onclick="showUserDash()"></span>
+        <button class="auth-btn" id="authBtn" onclick="openAuthModal()">Login</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-mesh"></div>
+  <div class="hero-lines"></div>
+  <div class="container hero-inner">
+    <div class="hero-eyebrow"><span></span> Orthopedic Surgeon &amp; Academic · Cairo, Egypt <span></span></div>
+    <h1>Expert <em>Orthopedic Care</em><br>You Can Trust</h1>
+    <p class="hero-sub">Comprehensive orthopedic surgery — joint replacement, arthroscopy, sports injuries, trauma management, deformity correction, and pediatric orthopedics.</p>
+    <div class="hero-ctas">
+      <button class="btn-primary" onclick="openBookingModal()">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        Book an Appointment
+      </button>
+      <a href="#locations" class="btn-outline">View Clinic Hours</a>
+    </div>
+  </div>
+</section>
+
+<div class="stats-strip">
+  <div class="container">
+    <div class="stats-inner">
+      <div class="stat-item"><div class="stat-num">20<sup>+</sup></div><div class="stat-label">Years Experience</div></div>
+      <div class="stat-item"><div class="stat-num">6</div><div class="stat-label">Specializations</div></div>
+      <div class="stat-item"><div class="stat-num">2</div><div class="stat-label">Clinic Locations</div></div>
+      <div class="stat-item"><div class="stat-num">3<sup>+</sup></div><div class="stat-label">Publications</div></div>
+    </div>
+  </div>
+</div>
+
+<section id="about" class="about-bg">
+  <div class="container">
+    <div class="section-header">
+      <div class="eyebrow">About</div>
+      <h2 class="section-title">Meet Dr. Ehab El Zahed</h2>
+      <p class="section-desc">An accomplished orthopedic surgeon combining clinical excellence with academic research to deliver world-class patient care.</p>
+    </div>
+    <div class="about-layout">
+      <div class="profile-card">
+        <div class="profile-avatar">EZ</div>
+        <div class="profile-name">Dr. Ehab El Zahed</div>
+        <div class="profile-title">Orthopedic Surgeon &amp; Lecturer</div>
+        <div class="profile-divider"></div>
+        <div class="cred-list">
+          <div class="cred-row"><div class="cred-dot"></div><div class="cred-text">Lecturer, Al-Azhar University Faculty of Medicine</div></div>
+          <div class="cred-row"><div class="cred-dot"></div><div class="cred-text">Member, Egyptian Orthopedic Association</div></div>
+          <div class="cred-row"><div class="cred-dot"></div><div class="cred-text">Member, Swiss Orthopedic Society</div></div>
+          <div class="cred-row"><div class="cred-dot"></div><div class="cred-text">Published Researcher – Al-Azhar International Medical Journal</div></div>
+        </div>
+      </div>
+      <div class="about-body">
+        <p>Dr. Ehab El Zahed is a <strong>specialized orthopedic surgeon</strong> based in Giza, Egypt, with extensive expertise spanning adult and pediatric orthopedics, trauma management, bone deformity correction, joint replacement, and sports-related injuries.</p>
+        <p>As a <strong>Lecturer at Al-Azhar University Faculty of Medicine</strong>, Dr. El Zahed bridges rigorous clinical practice with academic research. He has published several peer-reviewed studies in the Al-Azhar International Medical Journal, focusing on advanced minimally invasive orthopedic techniques including MIPO fixation and intramedullary methods.</p>
+        <p>Dr. El Zahed sees patients at two locations in Cairo — his <strong>Nasr City private clinic</strong> and <strong>Dar Al Fouad Hospital</strong> — providing patients across the region with accessible, high-quality orthopedic care.</p>
+        <div class="about-contact">
+          <button class="btn-primary" onclick="openBookingModal()" style="font-size:.875rem;padding:11px 22px">Book a Consultation</button>
+          <a href="tel:+201006557255" style="font-size:.875rem;color:var(--teal);font-weight:600">or call 0100 655 7255</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="specializations">
+  <div class="container">
+    <div class="section-header">
+      <div class="eyebrow">Expertise</div>
+      <h2 class="section-title">Specializations</h2>
+      <p class="section-desc">A comprehensive range of orthopedic services — from minimally invasive procedures to complex reconstructive surgery.</p>
+    </div>
+    <div class="spec-grid">
+      <div class="spec-card">
+        <div class="spec-icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="1.75" stroke-linecap="round"><circle cx="12" cy="12" r="2"/><path d="M12 2v4m0 12v4M2 12h4m12 0h4"/><path d="M5.64 5.64l2.83 2.83m7.07 7.07l2.83 2.83M5.64 18.36l2.83-2.83m7.07-7.07l2.83-2.83"/></svg></div>
+        <h3>Arthroscopy</h3>
+        <p>Minimally invasive diagnostic and surgical arthroscopic procedures for the knee, shoulder, hip, and ankle joints.</p>
+      </div>
+      <div class="spec-card">
+        <div class="spec-icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="1.75" stroke-linecap="round"><path d="M12 22V12M12 12C12 7 7 4 3 6M12 12C12 7 17 4 21 6"/><path d="M3 6c0 4 2 8 9 10M21 6c0 4-2 8-9 10"/></svg></div>
+        <h3>Trauma &amp; Fracture Management</h3>
+        <p>Treatment of complex fractures, non-unions, and intramedullary and minimally invasive plate fixation techniques.</p>
+      </div>
+      <div class="spec-card">
+        <div class="spec-icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="1.75" stroke-linecap="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+        <h3>Pediatric &amp; Adult Orthopedics</h3>
+        <p>Comprehensive orthopedic care for patients of all ages, from childhood growth disorders to adult joint conditions.</p>
+      </div>
+      <div class="spec-card">
+        <div class="spec-icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="1.75" stroke-linecap="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+        <h3>Joint Replacement</h3>
+        <p>Total and partial replacement of hip, knee, and other major joints to restore mobility and eliminate chronic pain.</p>
+      </div>
+      <div class="spec-card">
+        <div class="spec-icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="1.75" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/></svg></div>
+        <h3>Sports Injuries</h3>
+        <p>Diagnosis and surgical treatment of ligament tears, cartilage damage, tendon injuries, and other sports-related conditions.</p>
+      </div>
+      <div class="spec-card">
+        <div class="spec-icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="1.75" stroke-linecap="round"><path d="M3 3l18 18M9 9l6 6M9 3h6M9 21h6"/><path d="M3 12h4M17 12h4"/></svg></div>
+        <h3>Deformity Correction</h3>
+        <p>Correction of congenital and acquired skeletal deformities using advanced reconstructive and fixation techniques.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="locations" class="loc-section">
+  <div class="container">
+    <div class="section-header">
+      <div class="eyebrow">Visit Us</div>
+      <h2 class="section-title">Clinic Locations</h2>
+      <p class="section-desc">Dr. El Zahed sees patients at two locations in Cairo. Appointments are recommended.</p>
+    </div>
+    <div class="loc-grid">
+      <div class="loc-card">
+        <div class="loc-type">Private Clinic</div>
+        <div class="loc-name">Nasr City Clinic</div>
+        <div class="loc-area">Madinet Nasr, Cairo</div>
+        <div class="loc-detail"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>68 Abbas El-Akkad Street, near Nasr City Police Station</div>
+        <div class="loc-hrs"><span class="loc-hrs-badge">Sat, Mon, Wed</span><span class="loc-hrs-time">5:00 PM &ndash; 8:00 PM</span></div>
+      </div>
+      <div class="loc-card">
+        <div class="loc-type">Hospital</div>
+        <div class="loc-name">Dar Al Fouad Hospital</div>
+        <div class="loc-area">Nasr City, Cairo</div>
+        <div class="loc-detail"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Intersection of Makram Ebeid &amp; Abbas El-Akkad Streets</div>
+        <div class="loc-hrs"><span class="loc-hrs-badge">Sun, Tue, Thu</span><span class="loc-hrs-time">2:00 PM &ndash; 5:00 PM</span></div>
+      </div>
+    </div>
+    <div style="text-align:center"><button class="btn-primary" onclick="openBookingModal()">Book an Appointment</button></div>
+  </div>
+</section>
+
+<section id="publications">
+  <div class="container">
+    <div class="section-header">
+      <div class="eyebrow">Academic Work</div>
+      <h2 class="section-title">Research &amp; Publications</h2>
+      <p class="section-desc">Dr. El Zahed contributes to advancing orthopedic knowledge through peer-reviewed research published in academic medical journals.</p>
+    </div>
+    <div class="pub-grid">
+      <div class="pub-card">
+        <span class="pub-year-badge">Aug 2022</span>
+        <h3>MIPO for Distal Tibial Fractures</h3>
+        <div class="pub-journal">Al-Azhar International Medical Journal</div>
+        <p>Co-authored research on minimally invasive plate osteosynthesis (MIPO) techniques for the management of distal tibial fractures.</p>
+      </div>
+      <div class="pub-card">
+        <span class="pub-year-badge">Jan 2020</span>
+        <h3>Intramedullary Techniques in Fracture Treatment</h3>
+        <div class="pub-journal">Al-Azhar International Medical Journal</div>
+        <p>Co-authored study examining intramedullary fixation methods and outcomes in orthopaedic fracture management.</p>
+      </div>
+      <div class="pub-card">
+        <h3>Bone Fracture Management &amp; Operative Techniques</h3>
+        <div class="pub-journal">Al-Azhar International Medical Journal</div>
+        <p>Contributions on advanced operative techniques and clinical outcomes in orthopaedic trauma and fracture care.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="faq-section">
+  <div class="container">
+    <div class="section-header">
+      <div class="eyebrow">Common Questions</div>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-desc">Answers to common patient questions. For anything else, call the clinic directly.</p>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-item">
+        <button class="faq-q">How long does recovery take after arthroscopy?<span class="faq-chevron"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span></button>
+        <div class="faq-a"><p>Most patients return home the same day. Full recovery typically takes 4&ndash;6 weeks for daily activities and 3&ndash;6 months for sports. Physical therapy is usually recommended.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What are the prerequisites for joint surgery?<span class="faq-chevron"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span></button>
+        <div class="faq-a"><p>You will need a thorough clinical evaluation, relevant imaging (X-ray, MRI), and routine lab work. Patients are advised to stop smoking and manage chronic conditions prior to surgery.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Is arthroscopy painful?<span class="faq-chevron"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span></button>
+        <div class="faq-a"><p>Arthroscopy is performed under anesthesia so you will not feel pain during the procedure. Post-operative discomfort is usually mild and managed with prescribed medication.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Do I need a referral to book an appointment?<span class="faq-chevron"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span></button>
+        <div class="faq-a"><p>No referral is required. You can book an appointment directly through this site or call the clinic. All new patients receive a comprehensive consultation.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-top">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-brand-logo">
+            <div class="logo-mark"><svg viewBox="0 0 16 16" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"><path d="M8 2v12M2 8h12"/></svg></div>
+            <div class="logo-text">Dr. Ehab&nbsp;<span class="accent">El&nbsp;Zahed</span></div>
+          </div>
+          <p class="footer-tagline">Orthopedic Surgeon &amp; Lecturer at Al-Azhar University Faculty of Medicine. Serving patients across Cairo with expert orthopedic care.</p>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Clinic Hours</div>
+          <ul>
+            <li><strong>Nasr City Clinic</strong></li>
+            <li>Sat, Mon, Wed · 5 PM – 8 PM</li>
+            <li style="margin-top:8px"><strong>Dar Al Fouad Hospital</strong></li>
+            <li>Sun, Tue, Thu · 2 PM – 5 PM</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Credentials</div>
+          <ul>
+            <li>Lecturer, Al-Azhar University</li>
+            <li>Egyptian Orthopedic Association</li>
+            <li>Swiss Orthopedic Society</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; 2026 Dr. Ehab El Zahed. All rights reserved. <span class="admin-hint" id="adminHint">&#9679;</span></p>
+    </div>
+  </div>
+</footer>
+
+<div class="user-dash" id="userDash">
+  <div class="dash-header">
+    <div class="dash-header-left">
+      <h2>My Appointments <span class="appt-count-badge" id="userApptCount">0</span></h2>
+      <p class="sub">Your booked appointments and their status</p>
+    </div>
+    <button class="user-logout" id="userLogoutBtn">Logout</button>
+  </div>
+  <button class="user-back" id="userBackBtn">&larr; Back to site</button>
+  <div id="userApptList"></div>
+  <div style="text-align:center;margin-top:16px"><button class="btn-primary" onclick="closeUserDash();openBookingModal()">Book New Appointment</button></div>
+</div>
+
+<div class="admin-panel" id="adminPanel">
+  <div class="admin-login" id="adminLogin">
+    <h2>Admin Panel</h2>
+    <p class="sub">Enter password to manage appointments</p>
+    <input type="password" id="adminPass" placeholder="Password" autocomplete="off">
+    <div class="error-msg" id="adminPassErr">Incorrect password</div>
+    <button class="btn-primary" id="adminLoginBtn" style="width:100%">Login</button>
+  </div>
+  <div class="admin-dash" id="adminDash" style="display:none">
+    <div class="admin-header">
+      <div class="admin-header-left">
+        <h2>Appointments <span class="appt-count-badge" id="adminApptCount">0</span></h2>
+        <p class="sub">Manage all appointments — accept with time slots or cancel</p>
+      </div>
+      <button class="admin-logout" id="adminLogout">Logout</button>
+    </div>
+    <button class="admin-back" id="adminBack">&larr; Back to site</button>
+    <div class="tab-bar">
+      <button class="tab-btn active" data-admin-tab="pending">Pending</button>
+      <button class="tab-btn" data-admin-tab="accepted">Accepted</button>
+      <button class="tab-btn" data-admin-tab="all">All</button>
+    </div>
+    <div id="adminApptList"></div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="authModal">
+  <div class="modal" style="max-width:400px">
+    <button class="modal-close" onclick="closeModal('authModal')">&times;</button>
+    <h2>Account</h2>
+    <p class="modal-sub">Login or create an account to track your appointments</p>
+    <div class="auth-tabs">
+      <button class="auth-tab active" data-auth-tab="login">Login</button>
+      <button class="auth-tab" data-auth-tab="register">Register</button>
+    </div>
+    <div class="auth-form active" id="authLogin">
+      <div class="auth-error" id="loginError"></div>
+      <div class="form-group">
+        <label>Phone Number</label>
+        <input type="tel" id="loginPhone" placeholder="01x xxx xxxx" inputmode="numeric">
+      </div>
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" id="loginPassword" placeholder="Enter password">
+      </div>
+      <button class="btn-primary" style="width:100%" onclick="handleLogin()">Login</button>
+    </div>
+    <div class="auth-form" id="authRegister">
+      <div class="auth-error" id="registerError"></div>
+      <div class="auth-success" id="registerSuccess">Account created! You can now login.</div>
+      <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" id="regName" placeholder="e.g. Ahmed Hassan">
+      </div>
+      <div class="form-group">
+        <label>Phone Number</label>
+        <input type="tel" id="regPhone" placeholder="01x xxx xxxx" inputmode="numeric">
+      </div>
+      <div class="form-group">
+        <label>Password (min 4 characters)</label>
+        <input type="password" id="regPassword" placeholder="Choose a password">
+      </div>
+      <button class="btn-primary" style="width:100%" onclick="handleRegister()">Register</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="bookingModal">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('bookingModal')">&times;</button>
+    <h2>Book an Appointment</h2>
+    <p class="modal-sub">Fill in your details and we&rsquo;ll confirm your visit.</p>
+    <div class="steps" id="stepDots">
+      <div class="step-dot active"></div>
+      <div class="step-dot"></div>
+      <div class="step-dot"></div>
+    </div>
+    <div class="step active" data-step="1">
+      <div class="form-group">
+        <label>Select Location</label>
+        <div class="radio-group" id="locationGroup">
+          <label class="radio-option selected" data-hours="Sat, Mon, Wed &middot; 5 PM &ndash; 8 PM" data-days="Sat,Mon,Wed">
+            <input type="radio" name="location" value="nasr-city-clinic" checked>
+            <div class="r-text">
+              <div class="r-title">Nasr City Clinic</div>
+              <div class="r-hours">68 Abbas El-Akkad Street, Madinet Nasr</div>
+            </div>
+          </label>
+          <label class="radio-option" data-hours="Sun, Tue, Thu &middot; 2 PM &ndash; 5 PM" data-days="Sun,Tue,Thu">
+            <input type="radio" name="location" value="dar-al-fouad">
+            <div class="r-text">
+              <div class="r-title">Dar Al Fouad Hospital</div>
+              <div class="r-hours">Intersection of Makram Ebeid &amp; Abbas El-Akkad, Nasr City</div>
+            </div>
+          </label>
+        </div>
+      </div>
+      <div class="hours-info" id="hoursDisplay">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <span><strong>Hours:</strong> Sat, Mon, Wed &middot; 5 PM &ndash; 8 PM</span>
+      </div>
+      <div class="btns"><button class="btn-primary" id="bookingNext1">Next &rarr;</button></div>
+    </div>
+    <div class="step" data-step="2">
+      <div class="form-group">
+        <label for="fullName">Full Name <span style="color:#dc2626">*</span></label>
+        <input type="text" id="fullName" placeholder="e.g. Ahmed Hassan" autocomplete="name" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number <span style="color:#dc2626">*</span></label>
+        <input type="tel" id="phone" placeholder="01x xxx xxxx" autocomplete="tel" inputmode="numeric" required>
+        <div style="font-size:.74rem;color:var(--slate-400);margin-top:4px">11 digits starting with 01</div>
+      </div>
+      <div class="form-group">
+        <label for="specialty">Specialty Needed</label>
+        <select id="specialty">
+          <option value="arthroscopy">Arthroscopy</option>
+          <option value="joint-replacement">Joint Replacement</option>
+          <option value="sports-injuries">Sports Injuries</option>
+          <option value="fractures">Fractures &amp; Trauma</option>
+          <option value="deformity">Deformity Correction</option>
+          <option value="pediatric">Pediatric Orthopedics</option>
+          <option value="general">General Orthopedics</option>
+        </select>
+      </div>
+      <div class="btns">
+        <button class="btn-secondary" id="bookingPrev1">&larr; Back</button>
+        <button class="btn-primary" id="bookingNext2">Next &rarr;</button>
+      </div>
+    </div>
+    <div class="step" data-step="3">
+      <div class="form-group">
+        <label>Select Date</label>
+        <div class="hours-info" style="margin-bottom:12px" id="calInfo">
+          <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          <span id="calInfoText">Available: Sat, Mon, Wed &middot; 5 PM &ndash; 8 PM</span>
+        </div>
+        <div class="calendar" id="calendar"></div>
+      </div>
+      <div class="btns">
+        <button class="btn-secondary" id="bookingPrev2">&larr; Back</button>
+        <button class="btn-primary" id="submitBtn">Submit</button>
+      </div>
+    </div>
+    <div class="spinner" id="spinner"><div class="ring"></div><p>Submitting your request&hellip;</p></div>
+    <div class="success-screen" id="successScreen">
+      <div class="check">&#10003;</div>
+      <h3>Appointment Request Received!</h3>
+      <p>We will contact you shortly to confirm your visit.</p>
+      <div class="summary" id="summary"></div>
+      <button class="btn-primary" id="doneBtn" style="margin-top:18px">Done</button>
+    </div>
+  </div>
+</div>
+
+<script>
+var API = window.location.origin;
+var TOKEN_KEY = 'dr_ehab_token';
+var USER_KEY = 'dr_ehab_user';
+
+function getToken() { return localStorage.getItem(TOKEN_KEY); }
+function getUser() { try { return JSON.parse(localStorage.getItem(USER_KEY)); } catch { return null; } }
+function setAuth(token, user) { localStorage.setItem(TOKEN_KEY, token); localStorage.setItem(USER_KEY, JSON.stringify(user)); updateUI(); }
+function clearAuth() { localStorage.removeItem(TOKEN_KEY); localStorage.removeItem(USER_KEY); updateUI(); }
+
+function updateUI() {
+  var user = getUser();
+  var btn = document.getElementById('authBtn');
+  var badge = document.getElementById('userBadge');
+  if (user) {
+    btn.style.display = 'none';
+    badge.style.display = '';
+    badge.textContent = 'My Appointments';
+  } else {
+    btn.style.display = '';
+    badge.style.display = 'none';
+  }
+}
+
+function openAuthModal(fromBooking) {
+  document.getElementById('authModal').classList.add('active');
+  document.body.style.overflow = 'hidden';
+  if (fromBooking) {
+    document.querySelector('#authModal .modal-sub').textContent = 'Please login or create an account to book an appointment';
+    switchAuthTab('login');
+    setTimeout(function() { document.getElementById('loginPhone').focus(); }, 300);
+  } else {
+    document.querySelector('#authModal .modal-sub').textContent = 'Login or create an account to track your appointments';
+  }
+}
+
+function closeModal(id) {
+  document.getElementById(id).classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+function switchAuthTab(tab) {
+  document.querySelectorAll('.auth-tab').forEach(function(t) {
+    t.classList.toggle('active', t.dataset.authTab === tab);
+  });
+  document.getElementById('authLogin').classList.toggle('active', tab === 'login');
+  document.getElementById('authRegister').classList.toggle('active', tab === 'register');
+  document.getElementById('loginError').classList.remove('active');
+  document.getElementById('registerError').classList.remove('active');
+}
+
+document.querySelectorAll('.auth-tab').forEach(function(tab) {
+  tab.addEventListener('click', function() { switchAuthTab(this.dataset.authTab); });
+});
+
+function handleLogin() {
+  var phone = document.getElementById('loginPhone').value.trim();
+  var password = document.getElementById('loginPassword').value;
+  var err = document.getElementById('loginError');
+  if (!phone || !password) { err.textContent = 'Please fill in all fields'; err.classList.add('active'); return; }
+  fetch(API + '/api/login', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ phone: phone.replace(/\s/g, ''), password: password })
+  }).then(function(r) { return r.json(); }).then(function(d) {
+    if (d.success) {
+      setAuth(d.token, d.user);
+      closeModal('authModal');
+      if (pendingBooking) { pendingBooking = false; openBookingModal(); }
+    } else {
+      err.textContent = d.error || 'Login failed';
+      err.classList.add('active');
+    }
+  }).catch(function() {
+    err.textContent = 'Connection error';
+    err.classList.add('active');
+  });
+}
+
+function handleRegister() {
+  var name = document.getElementById('regName').value.trim();
+  var phone = document.getElementById('regPhone').value.trim();
+  var password = document.getElementById('regPassword').value;
+  var err = document.getElementById('registerError');
+  var success = document.getElementById('registerSuccess');
+  if (!name || !phone || !password) { err.textContent = 'Please fill in all fields'; err.classList.add('active'); return; }
+  if (!/^01\d{9}$/.test(phone)) { err.textContent = 'Invalid phone number (must be 11 digits starting with 01)'; err.classList.add('active'); return; }
+  if (password.length < 4) { err.textContent = 'Password must be at least 4 characters'; err.classList.add('active'); return; }
+  fetch(API + '/api/register', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ name: name, phone: phone.replace(/\s/g, ''), password: password })
+  }).then(function(r) { return r.json(); }).then(function(d) {
+    if (d.success) {
+      err.classList.remove('active');
+      success.classList.add('active');
+      setTimeout(function() { switchAuthTab('login'); }, 1200);
+    } else {
+      err.textContent = d.error || 'Registration failed';
+      err.classList.add('active');
+    }
+  }).catch(function() {
+    err.textContent = 'Connection error';
+    err.classList.add('active');
+  });
+}
+
+function showUserDash() {
+  var user = getUser();
+  if (!user) { openAuthModal(); return; }
+  document.body.scrollTop = 0;
+  document.querySelectorAll('header,.hero,.stats-strip,section,footer,.modal-overlay,#adminPanel,#bookingModal').forEach(function(s) {
+    s.style.display = 'none';
+  });
+  document.getElementById('userDash').classList.add('active');
+  loadUserAppointments();
+}
+
+function closeUserDash() {
+  document.getElementById('userDash').classList.remove('active');
+  document.querySelectorAll('header,.hero,.stats-strip,section,footer').forEach(function(s) {
+    s.style.display = '';
+  });
+}
+
+function loadUserAppointments() {
+  var list = document.getElementById('userApptList');
+  list.innerHTML = '<div class="spinner active"><div class="ring"></div></div>';
+  fetch(API + '/api/user/appointments', {
+    headers: { 'Authorization': 'Bearer ' + getToken() }
+  }).then(function(r) { return r.json(); }).then(function(appts) {
+    document.getElementById('userApptCount').textContent = appts.length;
+    if (!appts.length) {
+      list.innerHTML = '<div class="empty-state"><p>You have no appointments yet.</p><p style="font-size:.82rem;margin-top:6px">Book one above!</p></div>';
+      return;
+    }
+    list.innerHTML = appts.map(function(a) {
+      var statusClass = 'status-' + a.status;
+      var statusLabel = a.status.charAt(0).toUpperCase() + a.status.slice(1);
+      var timeSlot = a.time_slot ? ' at ' + a.time_slot : '';
+      var canCancel = a.status === 'pending' || a.status === 'accepted';
+      var cancelBtn = canCancel ? '<button class="appt-action-btn cancel" onclick="cancelUserAppt(' + a.id + ')">Cancel</button>' : '';
+      return '<div class="appointment-card">' +
+        '<div class="appt-info">' +
+        '<div class="appt-title">' + a.specialty + (a.specialty ? ' - ' : '') + a.location + '</div>' +
+        '<div class="appt-meta">' + (a.requested_date || 'Date not set') + timeSlot + '</div>' +
+        '</div>' +
+        '<span class="status-badge ' + statusClass + '">' + statusLabel + '</span>' +
+        (cancelBtn ? '<div class="appt-actions">' + cancelBtn + '</div>' : '') +
+        '</div>';
+    }).join('');
+  }).catch(function() {
+    list.innerHTML = '<div class="empty-state"><p>Failed to load appointments.</p></div>';
+  });
+}
+
+var pendingBooking = false;
+
+function cancelUserAppt(id) {
+  if (!confirm('Cancel this appointment?')) return;
+  fetch(API + '/api/user/appointments/' + id + '/cancel', {
+    method: 'PUT',
+    headers: { 'Authorization': 'Bearer ' + getToken() }
+  }).then(function(r) { return r.json(); }).then(function(d) {
+    if (d.success) loadUserAppointments();
+    else alert(d.error || 'Failed to cancel');
+  });
+}
+
+function openBookingModal() {
+  var user = getUser();
+  if (!user) { pendingBooking = true; openAuthModal(true); return; }
+  resetBooking();
+  document.getElementById('bookingModal').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function resetBooking() {
+  selDate = null;
+  calDate = new Date(today.getFullYear(), today.getMonth(), 1);
+  showStep(1);
+  document.getElementById('spinner').classList.remove('active');
+  document.getElementById('successScreen').classList.remove('active');
+  document.querySelectorAll('#bookingModal .step').forEach(function(s) { s.style.display = ''; });
+  document.querySelector('#bookingModal .modal h2').textContent = 'Book an Appointment';
+  document.querySelector('#bookingModal .modal-sub').textContent = 'Fill in your details and we\u2019ll confirm your visit.';
+  var currentUser = getUser();
+  document.getElementById('fullName').value = currentUser ? currentUser.name : '';
+  document.getElementById('phone').value = currentUser ? currentUser.phone : '';
+  document.getElementById('specialty').selectedIndex = 0;
+  document.querySelector('input[name="location"][value="nasr-city-clinic"]').checked = true;
+  document.querySelectorAll('.radio-option').forEach(function(r) { r.classList.toggle('selected', r.querySelector('input').checked); });
+  updateHours();
+  renderCalendar();
+}
+
+document.getElementById('bookingNext1').addEventListener('click', function() { showStep(2); });
+document.getElementById('bookingPrev1').addEventListener('click', function() { showStep(1); });
+document.getElementById('bookingNext2').addEventListener('click', function() {
+  var name = document.getElementById('fullName').value.trim();
+  var phone = document.getElementById('phone').value.trim();
+  var valid = true;
+  if (!name) { document.getElementById('fullName').classList.add('error'); valid = false; } else { document.getElementById('fullName').classList.remove('error'); }
+  if (!phone) { document.getElementById('phone').classList.add('error'); valid = false; }
+  else if (!/^01\d{9}$/.test(phone)) { document.getElementById('phone').classList.add('error'); valid = false; }
+  else { document.getElementById('phone').classList.remove('error'); }
+  if (valid) showStep(3);
+});
+document.getElementById('bookingPrev2').addEventListener('click', function() { showStep(2); });
+
+var radioOpts = document.querySelectorAll('#bookingModal .radio-option');
+radioOpts.forEach(function(r) {
+  r.addEventListener('click', function(e) {
+    if (e.target.type !== 'radio') { var inp = this.querySelector('input[type=radio]'); if (inp) inp.checked = true; }
+    selDate = null;
+    radioOpts.forEach(function(o) { o.classList.toggle('selected', o.querySelector('input').checked); });
+    updateHours();
+  });
+  r.querySelector('input[type=radio]').addEventListener('change', function() {
+    selDate = null;
+    radioOpts.forEach(function(o) { o.classList.toggle('selected', o.querySelector('input').checked); });
+    updateHours();
+  });
+});
+
+function updateHours() {
+  var sel = document.querySelector('#bookingModal input[name="location"]:checked');
+  if (!sel) return;
+  var parent = sel.closest('.radio-option');
+  var hrs = parent ? parent.dataset.hours : '';
+  document.querySelector('#hoursDisplay span:last-child').innerHTML = '<strong>Hours:</strong> ' + hrs;
+  updateCalInfo();
+  renderCalendar();
+}
+
+var today = new Date();
+today.setHours(0, 0, 0, 0);
+var calDate = new Date(today.getFullYear(), today.getMonth(), 1);
+var selDate = null;
+var dayMap = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 };
+
+function getLocationDays() {
+  var sel = document.querySelector('#bookingModal input[name="location"]:checked');
+  if (!sel) return [];
+  var parent = sel.closest('.radio-option');
+  if (!parent || !parent.dataset.days) return [];
+  return parent.dataset.days.split(',').map(function(d) { return dayMap[d]; }).filter(function(n) { return n !== undefined; });
+}
+
+function updateCalInfo() {
+  var sel = document.querySelector('#bookingModal input[name="location"]:checked');
+  if (!sel) return;
+  var parent = sel.closest('.radio-option');
+  if (!parent) return;
+  var el = document.getElementById('calInfoText');
+  if (el) el.textContent = 'Available: ' + parent.dataset.hours;
+}
+
+function renderCalendar() {
+  var c = document.getElementById('calendar');
+  if (!c) return;
+  var m = calDate.getMonth(), y = calDate.getFullYear();
+  var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  var first = new Date(y, m, 1).getDay();
+  var daysInMonth = new Date(y, m + 1, 0).getDate();
+  var availDays = getLocationDays();
+  var html = '<div class="cal-head"><button id="calPrev">&lsaquo;</button><span class="cal-month">' + months[m] + ' ' + y + '</span><button id="calNext">&rsaquo;</button></div><div class="cal-days">';
+  ['Su','Mo','Tu','We','Th','Fr','Sa'].forEach(function(d) { html += '<div class="day-name">' + d + '</div>'; });
+  for (var i = 0; i < first; i++) { html += '<div class="day empty"></div>'; }
+  for (var d = 1; d <= daysInMonth; d++) {
+    var dt = new Date(y, m, d);
+    var ds = dt.toDateString();
+    var cls = 'day';
+    if (dt < today) cls += ' disabled';
+    else if (availDays.length && availDays.indexOf(dt.getDay()) === -1) cls += ' disabled';
+    if (selDate && selDate.toDateString() === ds) cls += ' selected';
+    if (dt.toDateString() === today.toDateString()) cls += ' today';
+    html += '<div class="' + cls + '" data-date="' + ds + '">' + d + '</div>';
+  }
+  html += '</div>';
+  c.innerHTML = html;
+  document.getElementById('calPrev').addEventListener('click', function() { calDate.setMonth(calDate.getMonth() - 1); renderCalendar(); });
+  document.getElementById('calNext').addEventListener('click', function() { calDate.setMonth(calDate.getMonth() + 1); renderCalendar(); });
+  c.querySelectorAll('.day:not(.disabled):not(.empty)').forEach(function(el) {
+    el.addEventListener('click', function() {
+      if (this.classList.contains('disabled') || this.classList.contains('empty')) return;
+      c.querySelectorAll('.day.selected').forEach(function(s) { s.classList.remove('selected'); });
+      this.classList.add('selected');
+      selDate = new Date(this.dataset.date);
+    });
+  });
+}
+
+function showStep(n) {
+  var stepEls = document.querySelectorAll('#bookingModal .step');
+  var dots = document.querySelectorAll('#bookingModal .step-dot');
+  stepEls.forEach(function(s) { s.classList.toggle('active', parseInt(s.dataset.step) === n); });
+  dots.forEach(function(d, i) { d.classList.toggle('active', i + 1 === n); d.classList.toggle('done', i + 1 < n); });
+}
+
+document.getElementById('submitBtn').addEventListener('click', function() {
+  var name = document.getElementById('fullName').value.trim();
+  var phone = document.getElementById('phone').value.trim();
+  var phoneRe = /^01\d{9}$/;
+  var hasErr = false;
+  if (!name) { document.getElementById('fullName').classList.add('error'); hasErr = true; } else { document.getElementById('fullName').classList.remove('error'); }
+  if (!phone || !phoneRe.test(phone)) { document.getElementById('phone').classList.add('error'); hasErr = true; } else { document.getElementById('phone').classList.remove('error'); }
+  if (!selDate) { alert('Please select a date.'); hasErr = true; }
+  if (hasErr) { showStep(2); return; }
+  var loc = document.querySelector('#bookingModal input[name="location"]:checked');
+  var locName = loc ? loc.closest('.radio-option').querySelector('.r-title').textContent : '';
+  var spec = document.getElementById('specialty');
+  var specName = spec.options[spec.selectedIndex].text;
+  var dateStr = selDate.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+  var summary = '<strong>Name:</strong> ' + name + '<br><strong>Phone:</strong> ' + phone + '<br><strong>Location:</strong> ' + locName + '<br><strong>Specialty:</strong> ' + specName + '<br><strong>Date:</strong> ' + dateStr;
+  document.getElementById('summary').innerHTML = summary;
+  var appt = { name: name, phone: phone, location: locName, specialty: specName, date: dateStr };
+  var opts = {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(appt)
+  };
+  var token = getToken();
+  if (token) opts.headers['Authorization'] = 'Bearer ' + token;
+  document.querySelectorAll('#bookingModal .step').forEach(function(s) { s.style.display = 'none'; });
+  document.querySelector('#bookingModal .modal h2').textContent = '';
+  document.querySelector('#bookingModal .modal-sub').textContent = '';
+  document.getElementById('spinner').classList.add('active');
+  fetch(API + '/api/appointments', opts).then(function(r) { return r.json(); }).then(function(result) {
+    document.getElementById('spinner').classList.remove('active');
+    if (result.success) {
+      document.getElementById('summary').innerHTML = summary;
+      document.getElementById('successScreen').classList.add('active');
+    }
+  }).catch(function() {
+    document.getElementById('spinner').classList.remove('active');
+    alert('Failed to submit. Please try again.');
+  });
+});
+
+document.getElementById('doneBtn').addEventListener('click', function() { closeModal('bookingModal'); });
+
+var faqItems = document.querySelectorAll('.faq-item');
+faqItems.forEach(function(item) {
+  item.querySelector('.faq-q').addEventListener('click', function() {
+    var isOpen = item.classList.contains('open');
+    faqItems.forEach(function(i) { i.classList.remove('open'); });
+    if (!isOpen) item.classList.add('open');
+  });
+});
+
+var adminHint = document.getElementById('adminHint');
+var adminPanel = document.getElementById('adminPanel');
+var adminLogin = document.getElementById('adminLogin');
+var adminDash = document.getElementById('adminDash');
+var adminPass = document.getElementById('adminPass');
+var adminPassErr = document.getElementById('adminPassErr');
+var adminLoginBtn = document.getElementById('adminLoginBtn');
+var adminLogout = document.getElementById('adminLogout');
+var adminBack = document.getElementById('adminBack');
+var mainSections = document.querySelectorAll('header,.hero,.stats-strip,section,footer,.modal-overlay,#bookingModal,#authModal');
+
+function showAdmin(show) {
+  adminPanel.classList.toggle('active', show);
+  mainSections.forEach(function(s) { s.style.display = show ? 'none' : ''; });
+  if (show) { adminLogin.style.display = ''; adminDash.style.display = 'none'; adminPass.value = ''; adminPassErr.classList.remove('active'); }
+}
+
+function getTimeSlots(location) {
+  if (location.indexOf('Dar Al Fouad') !== -1) {
+    return ['2:00 PM','2:30 PM','3:00 PM','3:30 PM','4:00 PM','4:30 PM'];
+  }
+  return ['5:00 PM','5:30 PM','6:00 PM','6:30 PM','7:00 PM','7:30 PM'];
+}
+
+function loadAdminAppointments(filter) {
+  var list = document.getElementById('adminApptList');
+  list.innerHTML = '<div class="spinner active"><div class="ring"></div></div>';
+  fetch(API + '/api/admin/appointments?password=admin2026').then(function(r) {
+    if (!r.ok) throw new Error('Unauthorized');
+    return r.json();
+  }).then(function(appts) {
+    document.getElementById('adminApptCount').textContent = appts.length;
+    if (filter && filter !== 'all') appts = appts.filter(function(a) { return a.status === filter; });
+    if (!appts.length) {
+      list.innerHTML = '<div class="empty-state"><p>No ' + (filter || '') + ' appointments.</p></div>';
+      return;
+    }
+    list.innerHTML = appts.map(function(a) {
+      var statusClass = 'status-' + a.status;
+      var statusLabel = a.status.charAt(0).toUpperCase() + a.status.slice(1);
+      var actions = '';
+      if (a.status === 'pending') {
+        var slots = getTimeSlots(a.location);
+        var opts = slots.map(function(s) { return '<option value="' + s + '">' + s + '</option>'; }).join('');
+        actions = '<select class="admin-input-time" id="time_' + a.id + '">' + opts + '</select>' +
+          '<button class="appt-action-btn accept" onclick="acceptAppt(' + a.id + ')">Accept</button>' +
+          '<button class="appt-action-btn cancel" onclick="cancelAppt(' + a.id + ')">Cancel</button>';
+      } else if (a.status === 'accepted') {
+        actions = '<button class="appt-action-btn cancel" onclick="cancelAppt(' + a.id + ')">Cancel</button>';
+      }
+      return '<div class="appointment-card">' +
+        '<div class="appt-info">' +
+        '<div class="appt-title">' + a.name + ' - ' + a.specialty + '</div>' +
+        '<div class="appt-meta">' + a.phone + ' &middot; ' + a.location + ' &middot; ' + (a.requested_date || '') + (a.time_slot ? ' @ ' + a.time_slot : '') + '</div>' +
+        '</div>' +
+        '<span class="status-badge ' + statusClass + '">' + statusLabel + '</span>' +
+        '<div class="appt-actions">' + actions + '</div>' +
+        '</div>';
+    }).join('');
+  }).catch(function() {
+    list.innerHTML = '<div class="empty-state"><p>Failed to load appointments.</p></div>';
+  });
+}
+
+document.querySelectorAll('[data-admin-tab]').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('[data-admin-tab]').forEach(function(b) { b.classList.remove('active'); });
+    this.classList.add('active');
+    loadAdminAppointments(this.dataset.adminTab);
+  });
+});
+
+function acceptAppt(id) {
+  var timeInput = document.getElementById('time_' + id);
+  var timeSlot = timeInput ? timeInput.value : '';
+  fetch(API + '/api/admin/appointments/' + id + '/accept?password=admin2026', {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ time_slot: timeSlot })
+  }).then(function(r) { return r.json(); }).then(function(d) {
+    if (d.success) loadAdminAppointments(document.querySelector('[data-admin-tab].active').dataset.adminTab);
+  });
+}
+
+function cancelAppt(id) {
+  if (!confirm('Cancel this appointment?')) return;
+  fetch(API + '/api/admin/appointments/' + id + '/cancel?password=admin2026', {
+    method: 'PUT'
+  }).then(function(r) { return r.json(); }).then(function(d) {
+    if (d.success) loadAdminAppointments(document.querySelector('[data-admin-tab].active').dataset.adminTab);
+  });
+}
+
+function showDash() {
+  adminLogin.style.display = 'none';
+  adminDash.style.display = '';
+  loadAdminAppointments('pending');
+}
+
+adminHint.addEventListener('click', function() { showAdmin(true); });
+adminLoginBtn.addEventListener('click', function() {
+  if (adminPass.value === 'admin2026') { adminPassErr.classList.remove('active'); showDash(); }
+  else { adminPassErr.classList.add('active'); }
+});
+adminPass.addEventListener('keydown', function(e) { if (e.key === 'Enter') adminLoginBtn.click(); });
+adminLogout.addEventListener('click', function() { showAdmin(false); });
+adminBack.addEventListener('click', function() { showAdmin(false); });
+document.getElementById('userBackBtn').addEventListener('click', closeUserDash);
+document.getElementById('userLogoutBtn').addEventListener('click', function() { clearAuth(); closeUserDash(); });
+
+document.addEventListener('keydown', function(e) {
+  if (e.ctrlKey && e.shiftKey && e.key === 'A') { e.preventDefault(); showAdmin(!adminPanel.classList.contains('active')); }
+});
+
+document.querySelectorAll('.modal-overlay').forEach(function(m) {
+  m.addEventListener('click', function(e) { if (e.target === m) closeModal(m.id); });
+});
+
+var hdr = document.getElementById('header');
+window.addEventListener('scroll', function() { hdr.classList.toggle('scrolled', window.scrollY > 30); });
+window.addEventListener('load', function() { renderCalendar(); updateUI(); });
+</script>
+</body>
+</html>
