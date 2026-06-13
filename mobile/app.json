@@ -3,7 +3,7 @@
     "cli": {
       "appVersionSource": "local"
     },
-    "name": "dr-ehab-mobile",
+    "name": "Dr Ehab",
     "slug": "dr-ehab-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -50,6 +50,12 @@
         "projectId": "92a8470a-d35c-4e80-84fb-65bafc79d3c7"
       }
     },
-    "owner": "ahmed_ehab_abdelmaaboud"
+    "owner": "ahmed_ehab_abdelmaaboud",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/92a8470a-d35c-4e80-84fb-65bafc79d3c7"
+    }
   }
 }
