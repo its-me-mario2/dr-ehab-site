@@ -1,0 +1,25 @@
+export const palette = {
+  primary: '#0d9488',
+  primaryDark: '#0f766e',
+  primaryLight: '#14b8a6',
+  accent: '#0284c7',
+  bg: '#f0fdfa',
+  surface: '#ffffff',
+  text: '#0f172a',
+  textSecondary: '#64748b',
+  border: '#e2e8f0',
+  error: '#dc2626',
+  success: '#16a34a',
+  warning: '#d97706',
+  headerBg: '#0d9488',
+  headerText: '#ffffff',
+  cardShadow: 'rgba(0,0,0,0.08)',
+};
+
+export const typography = {
+  h1: { fontSize: 26, fontWeight: '800', color: palette.text },
+  h2: { fontSize: 20, fontWeight: '700', color: palette.text },
+  h3: { fontSize: 16, fontWeight: '600', color: palette.text },
+  body: { fontSize: 14, color: palette.textSecondary, lineHeight: 20 },
+  caption: { fontSize: 12, color: palette.textSecondary },
+};
