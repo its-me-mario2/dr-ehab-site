@@ -11,11 +11,11 @@ export default function AdminScreen() {
   const [appts, setAppts] = useState([]);
   const [refreshing, setRefreshing] = useState(false);
 
+  useFocusEffect(useCallback(() => { fetchAppts(); }, []));
+
   async function fetchAppts() {
     try { const d = await getAdminAppointments(); setAppts(d); } catch (e) {}
   }
-
-  useFocusEffect(useCallback(() => { fetchAppts(); }, []));
 
   const pending = appts.filter(a => a.status === 'pending');
   const accepted = appts.filter(a => a.status === 'accepted');

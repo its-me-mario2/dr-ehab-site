@@ -36,11 +36,12 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-example
-
 # generated native folders
 /ios
 /android
 
 # APK builds (too large for GitHub)
 *.apk
+
+# QR codes
+dr-ehab-qr*.png

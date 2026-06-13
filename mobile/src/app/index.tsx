@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, ScrollView, TouchableOpacity, StyleSheet, Linking, Dimensions } from 'react-native';
+import { View, Text, ScrollView, TouchableOpacity, StyleSheet, Linking } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { getUser } from '../auth';
@@ -21,7 +21,6 @@ export default function HomeScreen() {
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: palette.bg }} edges={['top']}>
       <ScrollView showsVerticalScrollIndicator={false}>
-        {/* Header */}
         <View style={s.header}>
           <View>
             <Text style={s.logoSub}>Orthopedic Surgeon</Text>
@@ -32,7 +31,6 @@ export default function HomeScreen() {
           </TouchableOpacity>
         </View>
 
-        {/* Hero */}
         <View style={s.hero}>
           <Text style={s.heroIcon}>🦴</Text>
           <Text style={s.heroTitle}>Expert Orthopedic{"\n"}Care</Text>
@@ -45,14 +43,12 @@ export default function HomeScreen() {
           </TouchableOpacity>
         </View>
 
-        {/* Stats */}
         <View style={s.statsRow}>
           {[{ n: '20+', l: 'Years Exp' }, { n: '6', l: 'Specialties' }, { n: '2', l: 'Locations' }, { n: '3+', l: 'Publications' }].map((st, i) => (
             <View key={i} style={s.stat}><Text style={s.statNum}>{st.n}</Text><Text style={s.statLabel}>{st.l}</Text></View>
           ))}
         </View>
 
-        {/* About */}
         <View style={s.section}>
           <Text style={s.sectionTitle}>About</Text>
           <View style={s.aboutCard}>
@@ -64,7 +60,6 @@ export default function HomeScreen() {
           </View>
         </View>
 
-        {/* Specialties */}
         <View style={s.section}>
           <Text style={s.sectionTitle}>Specializations</Text>
           <View style={s.specGrid}>
@@ -78,7 +73,6 @@ export default function HomeScreen() {
           </View>
         </View>
 
-        {/* Locations */}
         <View style={s.section}>
           <Text style={s.sectionTitle}>Locations</Text>
           <View style={s.locCard}>
@@ -95,7 +89,6 @@ export default function HomeScreen() {
           </View>
         </View>
 
-        {/* Footer */}
         <View style={s.footer}>
           <Text style={s.footerText}>2026 Dr. Ehab El Zahed</Text>
         </View>

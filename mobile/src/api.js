@@ -14,12 +14,11 @@ async function request(path, opts = {}) {
   } catch (e) {
     throw new Error('Network error — check server connection');
   }
-  let data;
   const text = await res.text();
+  let data;
   try {
     data = JSON.parse(text);
   } catch (e) {
-    const snippet = text.substring(0, 200);
     throw new Error('Server returned invalid response');
   }
   if (!res.ok) throw new Error(data.error || 'Request failed');

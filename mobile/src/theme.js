@@ -15,11 +15,3 @@ export const palette = {
   headerText: '#ffffff',
   cardShadow: 'rgba(0,0,0,0.08)',
 };
-
-export const typography = {
-  h1: { fontSize: 26, fontWeight: '800', color: palette.text },
-  h2: { fontSize: 20, fontWeight: '700', color: palette.text },
-  h3: { fontSize: 16, fontWeight: '600', color: palette.text },
-  body: { fontSize: 14, color: palette.textSecondary, lineHeight: 20 },
-  caption: { fontSize: 12, color: palette.textSecondary },
-};
